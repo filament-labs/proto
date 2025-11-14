@@ -45,6 +45,15 @@ export const WalletService = {
             kind: MethodKind.Unary,
         },
         /**
+         * @generated from rpc pb.WalletService.RecoverWallet
+         */
+        recoverWallet: {
+            name: "RecoverWallet",
+            I: RecoverWalletRequest,
+            O: RecoverWalletResponse,
+            kind: MethodKind.Unary,
+        },
+        /**
          * Updates mutable metadata associated with a wallet (name, default status).
          *
          * @generated from rpc pb.WalletService.UpdateWallet

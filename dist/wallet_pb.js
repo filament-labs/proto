@@ -6,7 +6,7 @@ import { file_google_protobuf_timestamp } from "@bufbuild/protobuf/wkt";
 /**
  * Describes the file wallet.proto.
  */
-export const file_wallet = /*@__PURE__*/ fileDesc("Cgx3YWxsZXQucHJvdG8SAnBiIiUKEEdldFdhbGxldFJlcXVlc3QSEQoJd2FsbGV0X2lkGAEgASgJIvQBChFHZXRXYWxsZXRSZXNwb25zZRIKCgJpZBgBIAEoCRISCgppc19kZWZhdWx0GAIgASgIEhMKC3dhbGxldF9uYW1lGAMgASgJEjcKCWFkZHJlc3NlcxgEIAMoCzIkLnBiLkdldFdhbGxldFJlc3BvbnNlLkFkZHJlc3Nlc0VudHJ5Eg8KB2JhbGFuY2UYBSABKAkSLgoKY3JlYXRlZF9hdBgGIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXAaMAoOQWRkcmVzc2VzRW50cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASITChFHZXRXYWxsZXRzUmVxdWVzdCJPChJHZXRXYWxsZXRzUmVzcG9uc2USEQoJaXNfbG9ja2VkGAEgASgIEiYKB3dhbGxldHMYAiADKAsyFS5wYi5HZXRXYWxsZXRSZXNwb25zZSJSChNDcmVhdGVXYWxsZXRSZXF1ZXN0EhMKC3dhbGxldF9uYW1lGAEgASgJEhcKCnBhc3NwaHJhc2UYAiABKAlIAIgBAUINCgtfcGFzc3BocmFzZSI9ChRDcmVhdGVXYWxsZXRSZXNwb25zZRIlCgZ3YWxsZXQYASABKAsyFS5wYi5HZXRXYWxsZXRSZXNwb25zZSJ8ChNVcGRhdGVXYWxsZXRSZXF1ZXN0EhEKCXdhbGxldF9pZBgBIAEoCRIYCgt3YWxsZXRfbmFtZRgCIAEoCUgAiAEBEhgKC3NldF9kZWZhdWx0GAMgASgISAGIAQFCDgoMX3dhbGxldF9uYW1lQg4KDF9zZXRfZGVmYXVsdCI9ChRVcGRhdGVXYWxsZXRSZXNwb25zZRIlCgZ3YWxsZXQYASABKAsyFS5wYi5HZXRXYWxsZXRSZXNwb25zZSIoChNEZWxldGVXYWxsZXRSZXF1ZXN0EhEKCXdhbGxldF9pZBgBIAEoCSIWChREZWxldGVXYWxsZXRSZXNwb25zZTLPAgoNV2FsbGV0U2VydmljZRI4CglHZXRXYWxsZXQSFC5wYi5HZXRXYWxsZXRSZXF1ZXN0GhUucGIuR2V0V2FsbGV0UmVzcG9uc2USOwoKR2V0V2FsbGV0cxIVLnBiLkdldFdhbGxldHNSZXF1ZXN0GhYucGIuR2V0V2FsbGV0c1Jlc3BvbnNlEkEKDENyZWF0ZVdhbGxldBIXLnBiLkNyZWF0ZVdhbGxldFJlcXVlc3QaGC5wYi5DcmVhdGVXYWxsZXRSZXNwb25zZRJBCgxVcGRhdGVXYWxsZXQSFy5wYi5VcGRhdGVXYWxsZXRSZXF1ZXN0GhgucGIuVXBkYXRlV2FsbGV0UmVzcG9uc2USQQoMRGVsZXRlV2FsbGV0EhcucGIuRGVsZXRlV2FsbGV0UmVxdWVzdBoYLnBiLkRlbGV0ZVdhbGxldFJlc3BvbnNlQipaKGdpdGh1Yi5jb20vZmlsYW1lbnQtbGFicy9wcm90by9nZW4vZ28vcGJiBnByb3RvMw", [file_google_protobuf_timestamp]);
+export const file_wallet = /*@__PURE__*/ fileDesc("Cgx3YWxsZXQucHJvdG8SAnBiIiUKEEdldFdhbGxldFJlcXVlc3QSEQoJd2FsbGV0X2lkGAEgASgJIvQBChFHZXRXYWxsZXRSZXNwb25zZRIKCgJpZBgBIAEoCRISCgppc19kZWZhdWx0GAIgASgIEhMKC3dhbGxldF9uYW1lGAMgASgJEjcKCWFkZHJlc3NlcxgEIAMoCzIkLnBiLkdldFdhbGxldFJlc3BvbnNlLkFkZHJlc3Nlc0VudHJ5Eg8KB2JhbGFuY2UYBSABKAkSLgoKY3JlYXRlZF9hdBgGIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXAaMAoOQWRkcmVzc2VzRW50cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASITChFHZXRXYWxsZXRzUmVxdWVzdCJPChJHZXRXYWxsZXRzUmVzcG9uc2USEQoJaXNfbG9ja2VkGAEgASgIEiYKB3dhbGxldHMYAiADKAsyFS5wYi5HZXRXYWxsZXRSZXNwb25zZSJSChNDcmVhdGVXYWxsZXRSZXF1ZXN0EhMKC3dhbGxldF9uYW1lGAEgASgJEhcKCnBhc3NwaHJhc2UYAiABKAlIAIgBAUINCgtfcGFzc3BocmFzZSI9ChRDcmVhdGVXYWxsZXRSZXNwb25zZRIlCgZ3YWxsZXQYASABKAsyFS5wYi5HZXRXYWxsZXRSZXNwb25zZSJUChRSZWNvdmVyV2FsbGV0UmVxdWVzdBITCgt3YWxsZXRfbmFtZRgBIAEoCRISCgpwYXNzcGhyYXNlGAIgASgJEhMKC3NlZWRfcGhyYXNlGAMgASgJIkEKFVJlY292ZXJXYWxsZXRSZXNwb25zZRIoCgZ3YWxsZXQYASABKAsyGC5wYi5DcmVhdGVXYWxsZXRSZXNwb25zZSJ8ChNVcGRhdGVXYWxsZXRSZXF1ZXN0EhEKCXdhbGxldF9pZBgBIAEoCRIYCgt3YWxsZXRfbmFtZRgCIAEoCUgAiAEBEhgKC3NldF9kZWZhdWx0GAMgASgISAGIAQFCDgoMX3dhbGxldF9uYW1lQg4KDF9zZXRfZGVmYXVsdCI9ChRVcGRhdGVXYWxsZXRSZXNwb25zZRIlCgZ3YWxsZXQYASABKAsyFS5wYi5HZXRXYWxsZXRSZXNwb25zZSIoChNEZWxldGVXYWxsZXRSZXF1ZXN0EhEKCXdhbGxldF9pZBgBIAEoCSIWChREZWxldGVXYWxsZXRSZXNwb25zZTKVAwoNV2FsbGV0U2VydmljZRI4CglHZXRXYWxsZXQSFC5wYi5HZXRXYWxsZXRSZXF1ZXN0GhUucGIuR2V0V2FsbGV0UmVzcG9uc2USOwoKR2V0V2FsbGV0cxIVLnBiLkdldFdhbGxldHNSZXF1ZXN0GhYucGIuR2V0V2FsbGV0c1Jlc3BvbnNlEkEKDENyZWF0ZVdhbGxldBIXLnBiLkNyZWF0ZVdhbGxldFJlcXVlc3QaGC5wYi5DcmVhdGVXYWxsZXRSZXNwb25zZRJECg1SZWNvdmVyV2FsbGV0EhgucGIuUmVjb3ZlcldhbGxldFJlcXVlc3QaGS5wYi5SZWNvdmVyV2FsbGV0UmVzcG9uc2USQQoMVXBkYXRlV2FsbGV0EhcucGIuVXBkYXRlV2FsbGV0UmVxdWVzdBoYLnBiLlVwZGF0ZVdhbGxldFJlc3BvbnNlEkEKDERlbGV0ZVdhbGxldBIXLnBiLkRlbGV0ZVdhbGxldFJlcXVlc3QaGC5wYi5EZWxldGVXYWxsZXRSZXNwb25zZUIqWihnaXRodWIuY29tL2ZpbGFtZW50LWxhYnMvcHJvdG8vZ2VuL2dvL3BiYgZwcm90bzM", [file_google_protobuf_timestamp]);
 /**
  * Describes the message pb.GetWalletRequest.
  * Use `create(GetWalletRequestSchema)` to create a new message.
@@ -38,25 +38,35 @@ export const CreateWalletRequestSchema = /*@__PURE__*/ messageDesc(file_wallet, 
  */
 export const CreateWalletResponseSchema = /*@__PURE__*/ messageDesc(file_wallet, 5);
 /**
+ * Describes the message pb.RecoverWalletRequest.
+ * Use `create(RecoverWalletRequestSchema)` to create a new message.
+ */
+export const RecoverWalletRequestSchema = /*@__PURE__*/ messageDesc(file_wallet, 6);
+/**
+ * Describes the message pb.RecoverWalletResponse.
+ * Use `create(RecoverWalletResponseSchema)` to create a new message.
+ */
+export const RecoverWalletResponseSchema = /*@__PURE__*/ messageDesc(file_wallet, 7);
+/**
  * Describes the message pb.UpdateWalletRequest.
  * Use `create(UpdateWalletRequestSchema)` to create a new message.
  */
-export const UpdateWalletRequestSchema = /*@__PURE__*/ messageDesc(file_wallet, 6);
+export const UpdateWalletRequestSchema = /*@__PURE__*/ messageDesc(file_wallet, 8);
 /**
  * Describes the message pb.UpdateWalletResponse.
  * Use `create(UpdateWalletResponseSchema)` to create a new message.
  */
-export const UpdateWalletResponseSchema = /*@__PURE__*/ messageDesc(file_wallet, 7);
+export const UpdateWalletResponseSchema = /*@__PURE__*/ messageDesc(file_wallet, 9);
 /**
  * Describes the message pb.DeleteWalletRequest.
  * Use `create(DeleteWalletRequestSchema)` to create a new message.
  */
-export const DeleteWalletRequestSchema = /*@__PURE__*/ messageDesc(file_wallet, 8);
+export const DeleteWalletRequestSchema = /*@__PURE__*/ messageDesc(file_wallet, 10);
 /**
  * Describes the message pb.DeleteWalletResponse.
  * Use `create(DeleteWalletResponseSchema)` to create a new message.
  */
-export const DeleteWalletResponseSchema = /*@__PURE__*/ messageDesc(file_wallet, 9);
+export const DeleteWalletResponseSchema = /*@__PURE__*/ messageDesc(file_wallet, 11);
 /**
  * The primary service interface for managing the user's wallet portfolio.
  *

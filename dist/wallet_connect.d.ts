@@ -40,6 +40,15 @@ export declare const WalletService: {
             readonly kind: any;
         };
         /**
+         * @generated from rpc pb.WalletService.RecoverWallet
+         */
+        readonly recoverWallet: {
+            readonly name: "RecoverWallet";
+            readonly I: any;
+            readonly O: any;
+            readonly kind: any;
+        };
+        /**
          * Updates mutable metadata associated with a wallet (name, default status).
          *
          * @generated from rpc pb.WalletService.UpdateWallet

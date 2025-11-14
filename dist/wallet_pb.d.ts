@@ -149,6 +149,42 @@ export type CreateWalletResponse = Message<"pb.CreateWalletResponse"> & {
  */
 export declare const CreateWalletResponseSchema: GenMessage<CreateWalletResponse>;
 /**
+ * @generated from message pb.RecoverWalletRequest
+ */
+export type RecoverWalletRequest = Message<"pb.RecoverWalletRequest"> & {
+    /**
+     * @generated from field: string wallet_name = 1;
+     */
+    walletName: string;
+    /**
+     * @generated from field: string passphrase = 2;
+     */
+    passphrase: string;
+    /**
+     * @generated from field: string seed_phrase = 3;
+     */
+    seedPhrase: string;
+};
+/**
+ * Describes the message pb.RecoverWalletRequest.
+ * Use `create(RecoverWalletRequestSchema)` to create a new message.
+ */
+export declare const RecoverWalletRequestSchema: GenMessage<RecoverWalletRequest>;
+/**
+ * @generated from message pb.RecoverWalletResponse
+ */
+export type RecoverWalletResponse = Message<"pb.RecoverWalletResponse"> & {
+    /**
+     * @generated from field: pb.CreateWalletResponse wallet = 1;
+     */
+    wallet?: CreateWalletResponse;
+};
+/**
+ * Describes the message pb.RecoverWalletResponse.
+ * Use `create(RecoverWalletResponseSchema)` to create a new message.
+ */
+export declare const RecoverWalletResponseSchema: GenMessage<RecoverWalletResponse>;
+/**
  * Request to update metadata for an existing wallet.
  *
  * @generated from message pb.UpdateWalletRequest
@@ -258,6 +294,14 @@ export declare const WalletService: GenService<{
         methodKind: "unary";
         input: typeof CreateWalletRequestSchema;
         output: typeof CreateWalletResponseSchema;
+    };
+    /**
+     * @generated from rpc pb.WalletService.RecoverWallet
+     */
+    recoverWallet: {
+        methodKind: "unary";
+        input: typeof RecoverWalletRequestSchema;
+        output: typeof RecoverWalletResponseSchema;
     };
     /**
      * Updates mutable metadata associated with a wallet (name, default status).
