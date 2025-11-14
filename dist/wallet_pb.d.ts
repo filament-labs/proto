@@ -175,9 +175,9 @@ export declare const RecoverWalletRequestSchema: GenMessage<RecoverWalletRequest
  */
 export type RecoverWalletResponse = Message<"pb.RecoverWalletResponse"> & {
     /**
-     * @generated from field: pb.CreateWalletResponse wallet = 1;
+     * @generated from field: pb.GetWalletResponse wallet = 1;
      */
-    wallet?: CreateWalletResponse;
+    wallet?: GetWalletResponse;
 };
 /**
  * Describes the message pb.RecoverWalletResponse.
